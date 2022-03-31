@@ -1,8 +1,12 @@
-from flask import jsonify, request
+from flask import jsonify, request, render_template
 
 from .app import app
 from ytmusic.recommendations import get_recommendations
 from ytmusic.search import get_search_results
+
+@app.route('/')
+def __index():
+    return render_template('docs.html')
 
 @app.route('/check')
 def __check():

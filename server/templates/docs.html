@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YTmusic Interactions</title>
+</head>
+<body style="padding:20px">
+    <h6>There is no Authentication as of now.</h6>
+    <div class="route__container">
+        <h2 class="route__title">Endpoints:</h2>
+        <div class="route">
+            <h3 class="route__header">
+                /search
+            </h3>
+            <p class="route__params-label">
+                Parameters:
+            </p>
+            <ul class="route__parameters">
+                <li>query - Search query (Spelling mistakes tolerated)</li>
+                <li>limit - [OPTIONAL] Number of results to return. Defaults to 20 <em>Songs</em></li>
+            </ul>
+        </div>
+        <div class="route">
+            <h3 class="route__header">
+                /recommendations
+            </h3>
+            <p class="route__params-label">
+                Parameters:
+            </p>
+            <ul class="route__parameters">
+                <li>video_id - videoID for which recommendations are required</li>
+                <li>limit - [OPTIONAL] Number of results to return. Defaults to 50 <em>Songs</em></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
