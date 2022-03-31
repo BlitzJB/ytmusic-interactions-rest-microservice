@@ -1,5 +1,6 @@
 {
-    "DEBUG": false,
+    "DEBUG": true,
     "HOST": "0.0.0.0",
-    "PORT": 8080
+    "PORT": 8080,
+    "DOWNLOADS_PATH": "./downloads"
 }
