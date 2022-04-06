@@ -1,3 +1,4 @@
 # ytmusic-interactions-rest-microservice
 
-yaa so run `runserver.py` and keep installing untill `ImportErrors` stop. should be good. aslo, implement ur own auth haha
+`runserver.py` for running the service
+Yes, i am yet to dockerise it. 
