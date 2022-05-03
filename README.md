@@ -2,7 +2,7 @@
 
 # Running a local instance with docker
 
-Run `docker-compose up -d` in the project and the app will be accessible at http://localhost:5000/
+Run `docker-compose up -d` in the project directory and the app will be accessible at http://localhost:5000/
 
 # Running a local instance manually
 
